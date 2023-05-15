@@ -1,0 +1,133 @@
+@media (min-width:1920px){
+    header{
+        nav{
+            height: 50px;
+            ul{
+                li{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    main{
+        display: grid;
+        grid-template-columns: repeat(15,128px);
+
+        .cuadrado-contenedor-texto{
+            grid-column-start: 2;
+            grid-column-end: 7;
+            grid-row-start: 3;
+            grid-row-end: 5;
+        }
+
+        .seccion-titulo-arriba-productos{
+            margin-top: -45%;
+            grid-row-start: 5;
+            grid-row-end: 6;
+        }
+
+        .primera-linea-productos{
+            display: flex;
+            flex-direction: row;
+            grid-column-start: 1;
+            grid-column-end: 16;
+            grid-row-start: 6;
+            grid-row-end: 7;
+            gap: 100px;
+            div{
+                .imgs{
+                    width: 90%;
+                }
+                h2{
+                    font-size: 26px;
+                }
+                p{
+                    font-size: 20px;
+                }
+                .precio{
+                    font-size: 24px;
+                }
+            }
+        }
+        
+        .segunda-linea-productos{
+            display: flex;
+            flex-direction: row;
+            grid-column-start: 1;
+            grid-column-end: 16;
+            grid-row-start: 7;
+            grid-row-end: 9;
+            margin-top: 5%;
+        }
+
+        .noticias{
+            display: flex;
+            flex-direction: row;
+            // border: 1px solid blue ;
+            height: 100%;
+            grid-row-start: 9;
+            grid-row-end: 12;
+            grid-column-start: 1;
+            grid-column-end: 16;
+            margin-top: 4%;
+            article{
+                // border: 1px solid red;
+                margin-top: -0.1%;
+                height: 103%;
+                div{
+                    margin-top: -12%;
+                    h2{
+                        font-size: 16px;
+                    }
+                    h3{
+                        font-size: 29px;
+                    }
+                    p{
+                        font-size: 18px;
+                    }
+                    a{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    footer{
+        .seccion-links-footer1{
+            a{
+                font-size: 22px;
+            }
+        }
+
+        .seccion-links-footer2{
+            a{
+                font-size: 22px;
+            }
+        }
+
+        .seccion-descarga-la-app{
+            p{
+                font-size: 22px;
+            }
+        }
+
+        .seccion-conecta-con-nosotros{
+            p{
+                font-size: 22px;
+            }
+            div{
+                display: flex;
+                flex-direction: row;
+                grid-column-start: 3;
+                grid-column-end: 4;
+                justify-content: center;
+                gap: 15px;
+                .logo-rrss{
+                    width: 50px;
+                }
+            }
+        }
+    }
+}

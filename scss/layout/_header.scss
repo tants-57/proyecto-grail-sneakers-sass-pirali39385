@@ -1,0 +1,75 @@
+body{
+    background-color: $background-principal;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 2;
+
+    img {
+        width: 50%;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        background-color: $color-gris-secundario;
+        height: 30px;
+        width: 100vw;
+
+        ul {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+            align-items: center;
+
+            li {
+                a {
+                    text-decoration: none;
+                    font-family: $font-principal;
+                    color: $font-color-principal;
+
+                    &:hover {
+                        color: rgb(4, 0, 0);
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

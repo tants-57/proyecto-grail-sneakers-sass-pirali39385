@@ -1,0 +1,62 @@
+@media(min-width:425px){
+    main{
+        display: grid;
+        grid-template-rows: repeat(31,110px);
+
+        .seccion-titulo-arriba-productos{
+            h2{
+                margin-top: 10%;
+            }
+        }
+
+        .primera-linea-productos{
+            gap: 30px;
+            margin-top: -5%;
+        }
+
+
+        .seccion-suscribirse{
+            display: grid;
+            grid-row-start: 30;
+            grid-row-end: 32;
+        }
+
+        .noticias{
+            display: flex;
+            flex-direction: column;
+            grid-row-start: 21;
+            article{
+                display: grid;
+                grid-row-start: 21;
+                grid-row-end: 30;                
+            }
+        }
+
+        .segunda-linea-productos{
+            display: grid;
+            grid-row-start: 13;
+            margin-top: -13%;
+        }
+    }
+
+
+
+
+    footer{
+        .seccion-links-footer1{
+            a{
+                font-size: 16px;
+            }
+        }
+        .seccion-links-footer2{
+            a{
+                font-size: 16px;
+            }
+        }
+        .div-logo-footer{
+            img{
+                margin-top: 10px;
+            }
+        }
+    }
+}

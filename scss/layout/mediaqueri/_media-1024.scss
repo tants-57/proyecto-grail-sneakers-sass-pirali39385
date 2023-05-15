@@ -1,0 +1,105 @@
+@media (min-width:1024px) {
+
+    header {
+        div {
+            img {
+                width: 20%;
+            }
+        }
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: repeat(10, 102.4px);
+        grid-template-rows: repeat(13, 110px);
+
+        .cuadrado-contenedor-texto {
+            // border: 1px solid red;
+            grid-row-start: 2;
+            grid-row-end: 4;
+            grid-column-start: 1;
+            grid-column-end: 7;
+
+            div {
+                h2 {
+                    margin-bottom: -2%;
+                }
+            }
+        }
+
+        .seccion-titulo-arriba-productos {
+            grid-row-start: 4;
+            grid-row-end: 5;
+            margin-left: 30%;
+            margin-top: 5%;
+
+            h2 {
+                font-size: 36px;
+            }
+        }
+
+        .primera-linea-productos {
+            display: flex;
+            flex-direction: row;
+            grid-column-start: 1;
+            grid-column-end: 11;
+            grid-row-start: 5;
+            grid-row-end: 7;
+        }
+
+        .segunda-linea-productos {
+            display: flex;
+            flex-direction: row;
+            grid-column-start: 1;
+            grid-column-end: 11;
+            grid-row-start: 7;
+            grid-row-end: 9;
+        }
+
+        .noticias {
+            display: flex;
+            flex-direction: row-reverse;
+            grid-row-start: 9;
+            grid-column-start: 1;
+            grid-column-end: 11;
+            margin-top: -5%;
+        }
+
+        .seccion-suscribirse {
+            div {
+                grid-row-start: 14;
+            }
+        }
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3,1fr);
+
+        .seccion-descarga-la-app{
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            img{
+                width: 50%;
+            }
+        }
+
+        .seccion-conecta-con-nosotros{
+            grid-column-start: 3;
+            grid-column-end: 4;
+        }
+
+        .div-logo-footer{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end: 4;
+            img{
+                width: 50%;
+            }
+        }
+    }
+}

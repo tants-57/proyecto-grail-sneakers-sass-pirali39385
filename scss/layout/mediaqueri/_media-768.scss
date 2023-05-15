@@ -1,0 +1,181 @@
+@media(min-width:768px) {
+    header {
+        div {
+            img {
+                width: 30%;
+            }
+        }
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: repeat(6, 128px);
+        grid-template-rows: repeat(6, 130px);
+
+        .cuadrado-contenedor-texto {
+            grid-column-start: 1;
+            grid-column-end: 5;
+            grid-row-start: 2;
+            grid-row-end: 4;
+            align-self: center;
+            width: 90%;
+
+            p {
+                padding-left: 15px;
+            }
+
+            h2 {
+                padding-left: 15px;
+                margin-bottom: -10px;
+                font-size: 40px;
+            }
+        }
+
+        .seccion-titulo-arriba-productos {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end: 5;
+            align-self: center;
+            margin-top: -18%;
+            margin-left: 10%;
+            font-size: 20px;
+        }
+
+        .primera-linea-productos {
+            display: flex;
+            flex-direction: row;
+            grid-column-start: 1;
+            grid-column-end: 7;
+            grid-row-start: 4;
+            grid-row-end: 6;
+
+
+            div {
+                align-items: center;
+                // border: 1px solid red;
+                margin: 5px;
+
+                h2 {
+                    font-size: 20px;
+                }
+
+                p {
+                    font-size: 14px;
+                }
+
+                .imgs {
+                    width: 70%;
+                }
+            }
+        }
+
+        .segunda-linea-productos {
+            display: flex;
+            flex-direction: row;
+            grid-column-start: 1;
+            grid-column-end: 7;
+            grid-row-start: 6;
+            grid-row-end: 8;
+            margin-top: 5px;
+            div{
+                p{
+                    text-align: center;
+                }
+            }
+        }
+
+    }
+
+    .noticias {
+        display: flex;
+        flex-direction: column;
+        padding-left: 1%;
+        grid-column-start: 1;
+        grid-column-end: 8;
+        // border: 1px solid blue;
+        gap: -10px;
+
+        article {
+            width: 600px;
+            // border: 1px solid blue;
+            // border: 1px solid red;
+            margin-bottom: 7%;
+            display: grid;
+        }
+    }
+
+    .seccion-suscribirse {
+        display: grid;
+        width: 100vw;
+
+        div {
+            grid-column-start: 2;
+            grid-column-end: 6;
+
+            h2 {
+                margin-bottom: -2%;
+            }
+
+            input {
+                width: 50%;
+                align-self: center;
+                height: 24px;
+            }
+
+            .boton-enviar {
+                margin-bottom: -2%;
+            }
+
+            p {
+                margin-top: 5px;
+            }
+        }
+    }
+
+    footer {
+        .seccion-links-footer1 {
+            margin-top: 2%;
+
+            a {
+                font-size: 16px;
+            }
+        }
+
+        .seccion-links-footer2 {
+            margin-top: 2%;
+
+            a {
+                font-size: 16px;
+            }
+        }
+
+        .seccion-conecta-con-nosotros {
+            margin-top: 2%;
+        }
+
+        .seccion-descarga-la-app {
+            margin-top: 2%;
+
+            img {
+                width: 30%;
+                margin-top: -1%;
+            }
+        }
+
+        .div-logo-footer {
+            img {
+                width: 15%;
+                margin-top: 1.5%;
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,692 @@
+/*todos los elementos que componen al reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*tipografias*/
+footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 60px);
+}
+footer .seccion-links-footer1 {
+  display: flex;
+  flex-direction: column;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  align-items: center;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  justify-content: center;
+  gap: 10px;
+}
+footer .seccion-links-footer1 a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color: #514F4F;
+}
+footer .seccion-links-footer2 {
+  display: flex;
+  flex-direction: column;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  align-items: center;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  justify-content: center;
+  gap: 10px;
+}
+footer .seccion-links-footer2 a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color: #514F4F;
+}
+footer .seccion-conecta-con-nosotros, footer .seccion-descarga-la-app {
+  display: flex;
+  flex-direction: column;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  align-items: center;
+}
+footer .seccion-conecta-con-nosotros p, footer .seccion-descarga-la-app p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+footer .seccion-conecta-con-nosotros div img, footer .seccion-descarga-la-app div img {
+  width: 35px;
+  padding: 5px;
+}
+footer .seccion-descarga-la-app img {
+  width: 60%;
+}
+footer .div-logo-footer {
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  justify-items: center;
+  align-items: center;
+}
+footer .div-logo-footer img {
+  width: 35%;
+}
+
+body {
+  background-color: #f6f6f6;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 2;
+}
+header img {
+  width: 50%;
+}
+header nav {
+  display: flex;
+  justify-content: center;
+  background-color: #DAD7D7;
+  height: 30px;
+  width: 100vw;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  align-items: center;
+}
+header nav ul li a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  color: #514F4F;
+}
+header nav ul li a:hover {
+  color: rgb(4, 0, 0);
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: repeat(30, 110px);
+}
+main .banner-inicio-shop {
+  width: 100vw;
+}
+main .cuadrado-contenedor-texto {
+  background-color: #DAD7D7;
+  width: 90vw;
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  justify-self: center;
+  height: 160px;
+  margin-top: -30px;
+  border-radius: 2px;
+}
+main .cuadrado-contenedor-texto p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #514F4F;
+  padding-top: 5px;
+}
+main .cuadrado-contenedor-texto h2 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 28px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #514F4F;
+}
+main .cuadrado-contenedor-texto a {
+  color: #514F4F;
+  font-family: "Montserrat", sans-serif;
+  justify-self: center;
+  padding: 3px;
+  padding-bottom: 5px;
+}
+main .seccion-titulo-arriba-productos h2 {
+  font-family: "Barlow Condensed", sans-serif;
+  color: #514F4F;
+  margin-left: 10%;
+  margin-top: 17%;
+}
+main .primera-linea-productos, main .segunda-linea-productos {
+  display: grid;
+  align-items: center;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 12;
+}
+main .primera-linea-productos div, main .segunda-linea-productos div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .primera-linea-productos div .imgs, main .segunda-linea-productos div .imgs {
+  width: 50%;
+}
+main .primera-linea-productos div h2, main .segunda-linea-productos div h2 {
+  font-family: "Barlow Condensed", sans-serif;
+  color: #514F4F;
+}
+main .primera-linea-productos div p, main .segunda-linea-productos div p {
+  font-family: "Montserrat", sans-serif;
+  color: #514F4F;
+}
+main .primera-linea-productos div a, main .segunda-linea-productos div a {
+  font-family: "Barlow Condensed", sans-serif;
+  color: #514F4F;
+  text-decoration: none;
+}
+main .segunda-linea-productos {
+  display: grid;
+  align-items: center;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 12;
+  grid-row-end: 20;
+}
+main .noticias article {
+  display: grid;
+  grid-row-start: 20;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+main .noticias article img {
+  width: 100%;
+  border-radius: 2px;
+}
+main .noticias article div {
+  padding: 8px;
+  background-color: #DAD7D7;
+  border-radius: 2px;
+}
+main .noticias article div h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #514F4F;
+  font-size: 12px;
+}
+main .noticias article div h3 {
+  font-family: "Barlow Condensed", sans-serif;
+  color: #514F4F;
+  font-size: 25px;
+}
+main .noticias article div p {
+  font-family: "Montserrat", sans-serif;
+  color: #514F4F;
+}
+main .noticias article div a {
+  text-decoration: none;
+  font-family: "Barlow Condensed", sans-serif;
+  color: #514F4F;
+}
+main .seccion-suscribirse {
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 29;
+  grid-row-end: 31;
+  height: 100%;
+}
+main .seccion-suscribirse div {
+  display: flex;
+  flex-direction: column;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  background-color: #DAD7D7;
+  align-self: center;
+  padding-inline: 30px;
+  padding-block: 15px;
+}
+main .seccion-suscribirse div h2 {
+  font-family: "Barlow Condensed", sans-serif;
+  text-align: center;
+  color: #514F4F;
+  padding-bottom: 3%;
+}
+main .seccion-suscribirse div input {
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+main .seccion-suscribirse div .boton-enviar {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #514F4F;
+  text-decoration: none;
+  padding-bottom: 3%;
+  padding-top: 1.5%;
+}
+main .seccion-suscribirse div .texto-terminosycondiciones {
+  font-family: "Montserrat", sans-serif;
+  color: #514F4F;
+  text-align: center;
+  font-size: 10px;
+}
+main .seccion-suscribirse div p {
+  font-family: "Montserrat", sans-serif;
+  color: #514F4F;
+  text-align: center;
+  font-size: 12px;
+}
+
+@media (min-width: 425px) {
+  main {
+    display: grid;
+    grid-template-rows: repeat(31, 110px);
+  }
+  main .seccion-titulo-arriba-productos h2 {
+    margin-top: 10%;
+  }
+  main .primera-linea-productos, main .segunda-linea-productos {
+    gap: 30px;
+    margin-top: -5%;
+  }
+  main .seccion-suscribirse {
+    display: grid;
+    grid-row-start: 30;
+    grid-row-end: 32;
+  }
+  main .noticias {
+    display: flex;
+    flex-direction: column;
+    grid-row-start: 21;
+  }
+  main .noticias article {
+    display: grid;
+    grid-row-start: 21;
+    grid-row-end: 30;
+  }
+  main .segunda-linea-productos {
+    display: grid;
+    grid-row-start: 13;
+    margin-top: -13%;
+  }
+  footer .seccion-links-footer1 a {
+    font-size: 16px;
+  }
+  footer .seccion-links-footer2 a {
+    font-size: 16px;
+  }
+  footer .div-logo-footer img {
+    margin-top: 10px;
+  }
+}
+@media (min-width: 768px) {
+  header div img {
+    width: 30%;
+  }
+  main {
+    display: grid;
+    grid-template-columns: repeat(6, 128px);
+    grid-template-rows: repeat(6, 130px);
+  }
+  main .cuadrado-contenedor-texto {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    align-self: center;
+    width: 90%;
+  }
+  main .cuadrado-contenedor-texto p {
+    padding-left: 15px;
+  }
+  main .cuadrado-contenedor-texto h2 {
+    padding-left: 15px;
+    margin-bottom: -10px;
+    font-size: 40px;
+  }
+  main .seccion-titulo-arriba-productos {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    align-self: center;
+    margin-top: -18%;
+    margin-left: 10%;
+    font-size: 20px;
+  }
+  main .primera-linea-productos, main .segunda-linea-productos {
+    display: flex;
+    flex-direction: row;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 6;
+  }
+  main .primera-linea-productos div, main .segunda-linea-productos div {
+    align-items: center;
+    margin: 5px;
+  }
+  main .primera-linea-productos div h2, main .segunda-linea-productos div h2 {
+    font-size: 20px;
+  }
+  main .primera-linea-productos div p, main .segunda-linea-productos div p {
+    font-size: 14px;
+  }
+  main .primera-linea-productos div .imgs, main .segunda-linea-productos div .imgs {
+    width: 70%;
+  }
+  main .segunda-linea-productos {
+    display: flex;
+    flex-direction: row;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 6;
+    grid-row-end: 8;
+    margin-top: 5px;
+  }
+  main .segunda-linea-productos div p {
+    text-align: center;
+  }
+  .noticias {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1%;
+    grid-column-start: 1;
+    grid-column-end: 8;
+    gap: -10px;
+  }
+  .noticias article {
+    width: 600px;
+    margin-bottom: 7%;
+    display: grid;
+  }
+  .seccion-suscribirse {
+    display: grid;
+    width: 100vw;
+  }
+  .seccion-suscribirse div {
+    grid-column-start: 2;
+    grid-column-end: 6;
+  }
+  .seccion-suscribirse div h2 {
+    margin-bottom: -2%;
+  }
+  .seccion-suscribirse div input {
+    width: 50%;
+    align-self: center;
+    height: 24px;
+  }
+  .seccion-suscribirse div .boton-enviar {
+    margin-bottom: -2%;
+  }
+  .seccion-suscribirse div p {
+    margin-top: 5px;
+  }
+  footer .seccion-links-footer1 {
+    margin-top: 2%;
+  }
+  footer .seccion-links-footer1 a {
+    font-size: 16px;
+  }
+  footer .seccion-links-footer2 {
+    margin-top: 2%;
+  }
+  footer .seccion-links-footer2 a {
+    font-size: 16px;
+  }
+  footer .seccion-conecta-con-nosotros, footer .seccion-descarga-la-app {
+    margin-top: 2%;
+  }
+  footer .seccion-descarga-la-app {
+    margin-top: 2%;
+  }
+  footer .seccion-descarga-la-app img {
+    width: 30%;
+    margin-top: -1%;
+  }
+  footer .div-logo-footer img {
+    width: 15%;
+    margin-top: 1.5%;
+  }
+}
+@media (min-width: 1024px) {
+  header div img {
+    width: 20%;
+  }
+  main {
+    display: grid;
+    grid-template-columns: repeat(10, 102.4px);
+    grid-template-rows: repeat(13, 110px);
+  }
+  main .cuadrado-contenedor-texto {
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 7;
+  }
+  main .cuadrado-contenedor-texto div h2 {
+    margin-bottom: -2%;
+  }
+  main .seccion-titulo-arriba-productos {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    margin-left: 30%;
+    margin-top: 5%;
+  }
+  main .seccion-titulo-arriba-productos h2 {
+    font-size: 36px;
+  }
+  main .primera-linea-productos, main .segunda-linea-productos {
+    display: flex;
+    flex-direction: row;
+    grid-column-start: 1;
+    grid-column-end: 11;
+    grid-row-start: 5;
+    grid-row-end: 7;
+  }
+  main .segunda-linea-productos {
+    display: flex;
+    flex-direction: row;
+    grid-column-start: 1;
+    grid-column-end: 11;
+    grid-row-start: 7;
+    grid-row-end: 9;
+  }
+  main .noticias {
+    display: flex;
+    flex-direction: row-reverse;
+    grid-row-start: 9;
+    grid-column-start: 1;
+    grid-column-end: 11;
+    margin-top: -5%;
+  }
+  main .seccion-suscribirse div {
+    grid-row-start: 14;
+  }
+  footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  footer .seccion-descarga-la-app {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  footer .seccion-descarga-la-app img {
+    width: 50%;
+  }
+  footer .seccion-conecta-con-nosotros, footer .seccion-descarga-la-app {
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+  footer .div-logo-footer {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  footer .div-logo-footer img {
+    width: 50%;
+  }
+}
+@media (min-width: 1440px) {
+  header div img {
+    width: 15%;
+  }
+  header nav ul li {
+    margin: 15px;
+    font-size: 18px;
+  }
+  main {
+    display: grid;
+    grid-template-columns: repeat(10, 144px);
+    grid-template-rows: repeat(12, 163px);
+  }
+  main .cuadrado-contenedor-texto {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    height: 65%;
+    border-radius: 3px;
+  }
+  main .cuadrado-contenedor-texto div p {
+    font-size: 18px;
+  }
+  main .cuadrado-contenedor-texto div h2 {
+    font-size: 48px;
+  }
+  main .cuadrado-contenedor-texto p {
+    font-size: 18px;
+  }
+  main .primera-linea-productos, main .segunda-linea-productos {
+    display: flex;
+    flex-direction: row;
+    grid-column-start: 1;
+    grid-column-end: 11;
+    justify-content: center;
+  }
+  main .seccion-suscribirse div h2 {
+    font-size: 38px;
+  }
+  main .seccion-suscribirse div input {
+    width: 380px;
+  }
+  main .seccion-suscribirse div .boton-enviar {
+    font-size: 24px;
+  }
+  main .seccion-suscribirse div .texto-terminosycondiciones {
+    font-size: 16px;
+  }
+  main .seccion-suscribirse div p {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1920px) {
+  header nav {
+    height: 50px;
+  }
+  header nav ul li {
+    font-size: 20px;
+  }
+  main {
+    display: grid;
+    grid-template-columns: repeat(15, 128px);
+  }
+  main .cuadrado-contenedor-texto {
+    grid-column-start: 2;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 5;
+  }
+  main .seccion-titulo-arriba-productos {
+    margin-top: -45%;
+    grid-row-start: 5;
+    grid-row-end: 6;
+  }
+  main .primera-linea-productos, main .segunda-linea-productos {
+    display: flex;
+    flex-direction: row;
+    grid-column-start: 1;
+    grid-column-end: 16;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    gap: 100px;
+  }
+  main .primera-linea-productos div .imgs, main .segunda-linea-productos div .imgs {
+    width: 90%;
+  }
+  main .primera-linea-productos div h2, main .segunda-linea-productos div h2 {
+    font-size: 26px;
+  }
+  main .primera-linea-productos div p, main .segunda-linea-productos div p {
+    font-size: 20px;
+  }
+  main .primera-linea-productos div .precio, main .segunda-linea-productos div .precio {
+    font-size: 24px;
+  }
+  main .segunda-linea-productos {
+    display: flex;
+    flex-direction: row;
+    grid-column-start: 1;
+    grid-column-end: 16;
+    grid-row-start: 7;
+    grid-row-end: 9;
+    margin-top: 5%;
+  }
+  main .noticias {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    grid-row-start: 9;
+    grid-row-end: 12;
+    grid-column-start: 1;
+    grid-column-end: 16;
+    margin-top: 4%;
+  }
+  main .noticias article {
+    margin-top: -0.1%;
+    height: 103%;
+  }
+  main .noticias article div {
+    margin-top: -12%;
+  }
+  main .noticias article div h2 {
+    font-size: 16px;
+  }
+  main .noticias article div h3 {
+    font-size: 29px;
+  }
+  main .noticias article div p {
+    font-size: 18px;
+  }
+  main .noticias article div a {
+    font-size: 20px;
+  }
+  footer .seccion-links-footer1 a {
+    font-size: 22px;
+  }
+  footer .seccion-links-footer2 a {
+    font-size: 22px;
+  }
+  footer .seccion-descarga-la-app p {
+    font-size: 22px;
+  }
+  footer .seccion-conecta-con-nosotros p, footer .seccion-descarga-la-app p {
+    font-size: 22px;
+  }
+  footer .seccion-conecta-con-nosotros div, footer .seccion-descarga-la-app div {
+    display: flex;
+    flex-direction: row;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    justify-content: center;
+    gap: 15px;
+  }
+  footer .seccion-conecta-con-nosotros div .logo-rrss, footer .seccion-descarga-la-app div .logo-rrss {
+    width: 50px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

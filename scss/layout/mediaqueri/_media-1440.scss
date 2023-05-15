@@ -1,0 +1,72 @@
+@media (min-width:1440px) {
+
+    header{
+            div{
+                img{
+                    width: 15%;
+                }
+            }
+            nav{
+                ul{
+                    li{
+                        margin: 15px;
+                        font-size: 18px;
+                    }
+                }
+            }
+    }
+    main {
+        display: grid;
+        grid-template-columns: repeat(10, 144px);
+        grid-template-rows: repeat(12, 163px);
+
+        .cuadrado-contenedor-texto {
+            grid-column-start: 1;
+            grid-column-end: 5;
+            height: 65%;
+            border-radius: 3px;
+
+            div {
+                p {
+                    font-size: 18px;
+                }
+
+                h2 {
+                    font-size: 48px;
+                }
+            }
+
+            p {
+                font-size: 18px;
+            }
+        }
+
+        .primera-linea-productos {
+            display: flex;
+            flex-direction: row;
+            grid-column-start: 1;
+            grid-column-end: 11;
+            justify-content: center;
+        }
+
+        .seccion-suscribirse {
+            div {
+                h2 {
+                    font-size: 38px;
+                }
+                input{
+                    width: 380px;
+                }
+                .boton-enviar{
+                    font-size: 24px;
+                }
+                .texto-terminosycondiciones{
+                    font-size: 16px;
+                }
+                p{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
