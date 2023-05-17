@@ -92,13 +92,13 @@ header nav {
   display: flex;
   justify-content: center;
   background-color: #DAD7D7;
-  height: 30px;
-  width: 100vw;
+  height: 31px;
+  width: 101vw;
 }
 header nav ul {
   display: flex;
   list-style: none;
-  gap: 30px;
+  gap: 31px;
   align-items: center;
 }
 header nav ul li a {
