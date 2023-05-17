@@ -1,8 +1,9 @@
-footer{
+footer {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(5,60px);
-    .seccion-links-footer1{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 60px);
+
+    .seccion-links-footer1 {
         display: flex;
         flex-direction: column;
         grid-column-start: 1;
@@ -12,14 +13,16 @@ footer{
         grid-row-end: 3;
         justify-content: center;
         gap: 10px;
-        a{
+
+        a {
             text-decoration: none;
             font-family: $font-principal;
             font-size: 12px;
             color: $font-color-principal;
         }
     }
-    .seccion-links-footer2{
+
+    .seccion-links-footer2 {
         display: flex;
         flex-direction: column;
         grid-column-start: 2;
@@ -29,7 +32,8 @@ footer{
         grid-row-end: 3;
         justify-content: center;
         gap: 10px;
-        a{
+
+        a {
             text-decoration: none;
             font-family: $font-principal;
             font-size: 12px;
@@ -37,33 +41,36 @@ footer{
         }
     }
 
-    .seccion-conecta-con-nosotros{
+    .seccion-conecta-con-nosotros {
         display: flex;
         flex-direction: column;
         grid-column-start: 1;
         grid-column-end: 3;
         // border: 3px solid red;
         align-items: center;
-        p{
+
+        p {
             font-family: $font-principal;
             font-size: 16px;
         }
-        div{
-            img{
+
+        div {
+            img {
                 width: 35px;
                 padding: 5px;
             }
         }
     }
 
-    .seccion-descarga-la-app{
+    .seccion-descarga-la-app {
         @extend .seccion-conecta-con-nosotros;
-        img{
+
+        img {
             width: 60%;
         }
     }
 
-    .div-logo-footer{
+    .div-logo-footer {
         display: grid;
         grid-column-start: 1;
         grid-column-end: 3;
@@ -71,7 +78,8 @@ footer{
         grid-row-end: 6;
         justify-items: center;
         align-items: center;
-        img{
+
+        img {
             width: 35%;
         }
     }
