@@ -125,13 +125,13 @@ header nav ul li a:hover {
   .header-index {
     width: 100vw;
     height: 100vh;
-    background-image: url(/assets/imagenes-web-co/jordan-1-travis-fondo.jpg);
+    background-image: url(../assets/imagenes-web-co/jordan-1-travis-fondo.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
   .header-index .container-navbar-index {
-    background-color: rgba(0, 0, 0, 0.903);
+    background-color: rgba(0, 0, 0, 0.905);
     height: 100px;
     width: 100%;
     display: flex;
