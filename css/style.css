@@ -436,7 +436,7 @@ main .seccion-suscribirse div p {
 
 .container-forms {
   justify-self: center;
-  width: 600px;
+  width: 300px;
   height: 420px;
   border-radius: 20px;
   padding: 40px;
@@ -514,10 +514,6 @@ main .seccion-suscribirse div p {
   transition: 0.5s;
 }
 .container-forms .inputs-forms-container .button-forms:hover {
-  box-shadow: none;
-}
-
-.button-forms:hover {
   box-shadow: none;
 }
 
@@ -692,6 +688,9 @@ main .seccion-suscribirse div p {
   footer .div-logo-footer img {
     width: 15%;
     margin-top: 1.5%;
+  }
+  .container-forms {
+    width: 600px;
   }
 }
 @media (min-width: 1024px) {
