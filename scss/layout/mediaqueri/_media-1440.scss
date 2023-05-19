@@ -1,20 +1,22 @@
 @media (min-width:1440px) {
 
-    header{
-            div{
-                img{
-                    width: 15%;
+    header {
+        div {
+            img {
+                width: 15%;
+            }
+        }
+
+        nav {
+            ul {
+                li {
+                    margin: 15px;
+                    font-size: 18px;
                 }
             }
-            nav{
-                ul{
-                    li{
-                        margin: 15px;
-                        font-size: 18px;
-                    }
-                }
-            }
+        }
     }
+
     main {
         display: grid;
         grid-template-columns: repeat(10, 144px);
@@ -54,16 +56,20 @@
                 h2 {
                     font-size: 38px;
                 }
-                input{
+
+                input {
                     width: 380px;
                 }
-                .boton-enviar{
+
+                .boton-enviar {
                     font-size: 24px;
                 }
-                .texto-terminosycondiciones{
+
+                .texto-terminosycondiciones {
                     font-size: 16px;
                 }
-                p{
+
+                p {
                     font-size: 14px;
                 }
             }

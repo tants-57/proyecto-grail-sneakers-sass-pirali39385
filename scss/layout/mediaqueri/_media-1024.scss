@@ -72,32 +72,34 @@
         }
     }
 
-    footer{
+    footer {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
-        grid-template-rows: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
 
-        .seccion-descarga-la-app{
+        .seccion-descarga-la-app {
             grid-column-start: 3;
             grid-column-end: 4;
             grid-row-start: 1;
             grid-row-end: 2;
-            img{
+
+            img {
                 width: 50%;
             }
         }
 
-        .seccion-conecta-con-nosotros{
+        .seccion-conecta-con-nosotros {
             grid-column-start: 3;
             grid-column-end: 4;
         }
 
-        .div-logo-footer{
+        .div-logo-footer {
             grid-column-start: 2;
             grid-column-end: 3;
             grid-row-start: 3;
             grid-row-end: 4;
-            img{
+
+            img {
                 width: 50%;
             }
         }
