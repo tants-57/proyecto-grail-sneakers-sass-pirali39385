@@ -55,6 +55,7 @@ main {
         }
     }
 
+
     .primera-linea-productos {
         display: grid;
         align-items: center;
@@ -67,6 +68,7 @@ main {
             display: flex;
             flex-direction: column;
             align-items: center;
+            padding: 10px;
 
             .imgs {
                 width: 50%;
@@ -98,13 +100,15 @@ main {
         grid-column-end: 2;
         grid-row-start: 12;
         grid-row-end: 20;
+        div{
+            padding: 10px;
+        }
     }
 
     .noticias {
         article {
             display: grid;
             grid-row-start: 20;
-            // border: 1px solid blue;
             margin-top: 10%;
             margin-left: 10%;
             margin-right: 10%;
@@ -153,7 +157,7 @@ main {
         grid-row-end: 31;
         height: 100%;
 
-        // border: 1px solid red;
+        
         div {
             display: flex;
             flex-direction: column;

@@ -1,3 +1,12 @@
+:root {
+  --dark-color-lighten: #f2f5ff;
+  --red-card: #a62121;
+  --blue-card: #4bb7e6;
+  --btn: #141414;
+  --btn-hover: #3a3a3a;
+  --text: #fbf7f7;
+}
+
 /*todos los elementos que componen al reset*/
 * {
   margin: 0;
@@ -161,7 +170,7 @@ header nav ul li a:hover {
   .header-index .container-navbar-index .nav-menu-index li {
     display: none;
     line-height: 30px;
-    margin: 50px 0;
+    margin: 20px 0;
     transition: all 0.5s;
   }
   .header-index .container-navbar-index .nav-menu-index li a {
@@ -299,6 +308,7 @@ main .primera-linea-productos div, main .segunda-linea-productos div {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 10px;
 }
 main .primera-linea-productos div .imgs, main .segunda-linea-productos div .imgs {
   width: 50%;
@@ -323,6 +333,9 @@ main .segunda-linea-productos {
   grid-column-end: 2;
   grid-row-start: 12;
   grid-row-end: 20;
+}
+main .segunda-linea-productos div {
+  padding: 10px;
 }
 main .noticias article {
   display: grid;
@@ -406,6 +419,106 @@ main .seccion-suscribirse div p {
   color: #514F4F;
   text-align: center;
   font-size: 12px;
+}
+
+.body-hero-contacto {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #ecf0f3;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  place-items: center;
+  overflow: hidden;
+}
+
+.container-forms {
+  justify-self: center;
+  width: 600px;
+  height: 420px;
+  border-radius: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+  background: rgba(16, 16, 16, 0.9529411765);
+  box-shadow: 14px 14px 20px rgba(0, 0, 0, 0.8078431373), -14px -14px 20px rgba(12, 12, 12, 0.466);
+}
+.container-forms .brand-title-forms {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #ffffff;
+  letter-spacing: 5px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.container-forms .inputs-forms-container {
+  text-align: left;
+  margin-top: 30px;
+}
+.container-forms .inputs-forms-container .label-forms,
+.container-forms .inputs-forms-container .input-forms,
+.container-forms .inputs-forms-container .button-forms,
+.container-forms .inputs-forms-container .input-forms-mensaje {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.container-forms .inputs-forms-container .label-forms {
+  margin-bottom: 4px;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+}
+.container-forms .inputs-forms-container .label-forms:nth-of-type(2) {
+  margin-top: 12px;
+}
+.container-forms .inputs-forms-container .input-forms::placeholder {
+  color: gray;
+}
+.container-forms .inputs-forms-container .input-forms-mensaje::placeholder {
+  color: gray;
+}
+.container-forms .inputs-forms-container .input-forms {
+  background: #ecf0f3;
+  padding: 10px;
+  padding-left: 20px;
+  height: 50px;
+  font-size: 14px;
+  border-radius: 50px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+.container-forms .inputs-forms-container .input-forms-mensaje {
+  background: #ecf0f3;
+  padding: 10px;
+  padding-left: 20px;
+  height: 80px;
+  width: 100%;
+  font-size: 14px;
+  border-radius: 20px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+.container-forms .inputs-forms-container .button-forms {
+  color: white;
+  margin-top: 20px;
+  background: rgba(0, 254, 76, 0.6078431373);
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 900;
+  box-shadow: 2px 2px 2px rgba(244, 244, 244, 0.4470588235);
+  transition: 0.5s;
+}
+.container-forms .inputs-forms-container .button-forms:hover {
+  box-shadow: none;
+}
+
+.button-forms:hover {
+  box-shadow: none;
 }
 
 @media (min-width: 425px) {
@@ -502,6 +615,7 @@ main .seccion-suscribirse div p {
   }
   main .primera-linea-productos div p, main .segunda-linea-productos div p {
     font-size: 14px;
+    text-align: center;
   }
   main .primera-linea-productos div .imgs, main .segunda-linea-productos div .imgs {
     width: 70%;
