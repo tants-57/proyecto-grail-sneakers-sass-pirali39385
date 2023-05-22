@@ -591,6 +591,9 @@ main .seccion-suscribirse div p {
     gap: 30px;
     margin-top: -5%;
   }
+  main .primera-linea-productos div .imgs, main .segunda-linea-productos div .imgs {
+    width: 45%;
+  }
   main .seccion-suscribirse {
     display: grid;
     grid-row-start: 30;
