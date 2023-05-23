@@ -4,6 +4,7 @@
         div {
             img {
                 width: 15%;
+                transition: all .5s;
             }
         }
 
@@ -12,6 +13,7 @@
                 li {
                     margin: 15px;
                     font-size: 18px;
+                    transition: all .5s;
                 }
             }
         }
@@ -27,19 +29,23 @@
             grid-column-end: 5;
             height: 65%;
             border-radius: 3px;
+            transition: all .5s;
 
             div {
                 p {
                     font-size: 18px;
+                    transition: all .5s;
                 }
 
                 h2 {
                     font-size: 48px;
+                    transition: all .5s;
                 }
             }
 
             p {
                 font-size: 18px;
+                transition: all .5s;
             }
         }
 
@@ -55,22 +61,27 @@
             div {
                 h2 {
                     font-size: 38px;
+                    transition: all .5s;
                 }
 
                 input {
                     width: 380px;
+                    transition: all .5s;
                 }
 
                 .boton-enviar {
                     font-size: 24px;
+                    transition: all .5s;
                 }
 
                 .texto-terminosycondiciones {
                     font-size: 16px;
+                    transition: all .5s;
                 }
 
                 p {
                     font-size: 14px;
+                    transition: all .5s;
                 }
             }
         }

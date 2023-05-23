@@ -6,15 +6,18 @@
         .seccion-titulo-arriba-productos {
             h2 {
                 margin-top: 10%;
+                transition: all .5s;
             }
         }
 
         .primera-linea-productos {
             gap: 30px;
             margin-top: -5%;
+            transition: all .5s;
             div{
                 .imgs{
                     width: 45%;
+                    transition: all .5s;
                 }
             }
         }
@@ -24,17 +27,20 @@
             display: grid;
             grid-row-start: 30;
             grid-row-end: 32;
+            transition: all .5s;
         }
 
         .noticias {
             display: flex;
             flex-direction: column;
             grid-row-start: 21;
+            transition: all .5s;
 
             article {
                 display: grid;
                 grid-row-start: 21;
                 grid-row-end: 30;
+                transition: all .5s;
             }
         }
 
@@ -42,6 +48,7 @@
             display: grid;
             grid-row-start: 13;
             margin-top: -13%;
+            transition: all .5s;
         }
     }
 
@@ -52,18 +59,21 @@
         .seccion-links-footer1 {
             a {
                 font-size: 16px;
+                transition: all .5s;
             }
         }
 
         .seccion-links-footer2 {
             a {
                 font-size: 16px;
+                transition: all .5s;
             }
         }
 
         .div-logo-footer {
             img {
                 margin-top: 10px;
+                transition: all .5s;
             }
         }
     }

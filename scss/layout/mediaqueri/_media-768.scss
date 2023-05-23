@@ -1,8 +1,9 @@
-@media(min-width:768px) {
+@media(min-width:768px) {   
     header {
         div {
             img {
                 width: 30%;
+                transition: all .5s;
             }
         }
     }
@@ -19,15 +20,18 @@
             grid-row-end: 4;
             align-self: center;
             width: 90%;
+            transition: all .5s;
 
             p {
                 padding-left: 15px;
+                transition: all .5s;
             }
 
             h2 {
                 padding-left: 15px;
                 margin-bottom: -10px;
                 font-size: 40px;
+                transition: all .5s;
             }
         }
 
@@ -49,24 +53,29 @@
             grid-column-end: 7;
             grid-row-start: 4;
             grid-row-end: 6;
+            transition: all .5s;
 
 
             div {
                 align-items: center;
                 // border: 1px solid red;
                 margin: 5px;
+                transition: all .5s;
 
                 h2 {
                     font-size: 20px;
+                    transition: all .5s;
                 }
 
                 p {
                     font-size: 14px;
                     text-align: center;
+                    transition: all .5s;
                 }
 
                 .imgs {
                     width: 70%;
+                    transition: all .5s;
                 }
             }
         }
@@ -79,10 +88,12 @@
             grid-row-start: 6;
             grid-row-end: 8;
             margin-top: 5px;
+            transition: all .5s;
 
             div {
                 p {
                     text-align: center;
+                    transition: all .5s;
                 }
             }
         }
@@ -104,33 +115,40 @@
             // border: 1px solid red;
             margin-bottom: 7%;
             display: grid;
+            transition: all .5s;
         }
     }
 
     .seccion-suscribirse {
         display: grid;
         width: 100vw;
+        transition:all .5s;
 
         div {
             grid-column-start: 2;
             grid-column-end: 6;
+            transition: all .5s;
 
             h2 {
                 margin-bottom: -2%;
+                transition: all .5s;
             }
 
             input {
                 width: 50%;
                 align-self: center;
                 height: 24px;
+                transition:all .5s;
             }
 
             .boton-enviar {
                 margin-bottom: -2%;
+                transition:all .5s;
             }
 
             p {
                 margin-top: 5px;
+                transition:all .5s;
             }
         }
     }
@@ -138,30 +156,37 @@
     footer {
         .seccion-links-footer1 {
             margin-top: 2%;
+            transition:all .5s;
 
             a {
                 font-size: 16px;
+                transition:all .5s;
             }
         }
 
         .seccion-links-footer2 {
             margin-top: 2%;
+            transition: .5s;
 
             a {
                 font-size: 16px;
+                transition:all .5s;
             }
         }
 
         .seccion-conecta-con-nosotros {
             margin-top: 2%;
+            transition: .5s;
         }
 
         .seccion-descarga-la-app {
             margin-top: 2%;
+            transition: .5s;
 
             img {
                 width: 30%;
                 margin-top: -1%;
+                transition:all .5s;
             }
         }
 
@@ -169,11 +194,13 @@
             img {
                 width: 15%;
                 margin-top: 1.5%;
+                transition: all .5s;
             }
         }
     }
 
     .container-forms {
         width: 600px;
+        transition: all .5s;
     }
 }

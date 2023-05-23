@@ -6,6 +6,7 @@
             ul {
                 li {
                     font-size: 17px;
+                    transition: all .5s;
                 }
             }
         }
@@ -40,18 +41,22 @@
             div {
                 .imgs {
                     width: 70%;
+                    transition: all .5s;
                 }
 
                 h2 {
                     font-size: 22px;
+                    transition: all .5s;
                 }
 
                 p {
                     font-size: 16px;
+                    transition: all .5s;
                 }
 
                 .precio {
                     font-size: 20px;
+                    transition: all .5s;
                 }
             }
         }
@@ -81,24 +86,30 @@
                 // border: 1px solid red;
                 margin-top: -0.1%;
                 height: 103%;
+                transition: all .5s;
 
                 div {
                     margin-top: -12%;
+                    transition: all .5s;
 
                     h2 {
                         font-size: 16px;
+                        transition: all .5s;
                     }
 
                     h3 {
                         font-size: 29px;
+                        transition: all .5s;
                     }
 
                     p {
                         font-size: 18px;
+                        transition: all .5s;
                     }
 
                     a {
                         font-size: 20px;
+                        transition: all .5s;
                     }
                 }
             }
@@ -109,24 +120,28 @@
         .seccion-links-footer1 {
             a {
                 font-size: 22px;
+                transition: all .5s;
             }
         }
 
         .seccion-links-footer2 {
             a {
                 font-size: 22px;
+                transition: all .5s;
             }
         }
 
         .seccion-descarga-la-app {
             p {
                 font-size: 22px;
+                transition: all .5s;
             }
         }
 
         .seccion-conecta-con-nosotros {
             p {
                 font-size: 22px;
+                transition: all .5s;
             }
 
             div {
@@ -139,6 +154,7 @@
 
                 .logo-rrss {
                     width: 50px;
+                    transition: all .5s;
                 }
             }
         }

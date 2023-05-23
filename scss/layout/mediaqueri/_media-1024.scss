@@ -4,6 +4,7 @@
         div {
             img {
                 width: 20%;
+                transition: all .5s;
             }
         }
     }
@@ -23,6 +24,7 @@
             div {
                 h2 {
                     margin-bottom: -2%;
+                    transition: all .5s;
                 }
             }
         }
@@ -35,6 +37,7 @@
 
             h2 {
                 font-size: 36px;
+                transition: all .5s;
             }
         }
 
@@ -68,6 +71,7 @@
         .seccion-suscribirse {
             div {
                 grid-row-start: 14;
+                transition: all .5s;
             }
         }
     }
@@ -82,9 +86,11 @@
             grid-column-end: 4;
             grid-row-start: 1;
             grid-row-end: 2;
+            transition: all .5s;
 
             img {
                 width: 50%;
+                transition: all .5s;
             }
         }
 
@@ -101,6 +107,7 @@
 
             img {
                 width: 50%;
+                transition: all .5s;
             }
         }
     }
