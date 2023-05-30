@@ -12,8 +12,7 @@ header {
     }
 
     nav {
-        display: flex;
-        justify-content: center;
+        @include flex (center,row);
         background-color: $color-gris-secundario;
         height: 30px;
         width: 100vw;
